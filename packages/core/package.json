@@ -1,0 +1,23 @@
+{
+  "name": "@websocket/core",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/node": "^18.13.0",
+    "typescript": "^4.9.5",
+    "vitest": "^0.28.4"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.267.0",
+    "@aws-sdk/lib-dynamodb": "^3.267.0",
+    "@aws-sdk/smithy-client": "^3.267.0",
+    "@aws-sdk/types": "^3.267.0"
+  }
+}
